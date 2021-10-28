@@ -20,7 +20,7 @@ class usuario extends conex
         $result = $conexion->query($sql);
         $conteo = $result->num_rows;
         if ($conteo < 1) {
-            $sql= " insert into usuario ( fecha, clave, correo, nombre_usuario,borrar) values ( now(),'$clave', '$correo','$usuario','')";
+            $sql= " insert into usuario ( fecha, clave, correo, nombre_usuario,borrar) values ( now(),'$clave', '$correo','$usuario','0')";
             $resultado = $conexion->query($sql);
             if ($conexion ->affected_rows > 0)
             {
