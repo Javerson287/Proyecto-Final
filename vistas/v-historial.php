@@ -32,11 +32,11 @@
 
                         <thead><br>
                               <th>Fecha Registro</th>
-                              <th>Fecha prestamo</th>
+                              <th>Fecha préstamo</th>
                               <th>Fecha devolución</th>
                               <th>Hora Ingreso</th>
                               <th>Hora Salida</th>
-                              <th>cede</th>
+                              <th>Sede</th>
                               <th>aula</th>
                               <th>No_documento</th>
                               <th>instructor</th>
@@ -53,7 +53,7 @@
                               <td data-label="Fecha devolucion:"><?=$row['fecha_devolucion']?></td>
                               <td data-label="Hora Ingreso:"><?=$row['hora_ingreso']?></td>
                               <td data-label="Hora Salida:"><?=$row['hora_salida']?></td>
-                              <td data-label="Cede:"><?=$row['cede']?></td>                   
+                              <td data-label="Sede:"><?=$row['cede']?></td>                   
                               <td data-label="aula:"><?=$row['nom_aula']?></td>
                               <td data-label="No_documento:"><?=$row['No_documento']?></td>
                               <td data-label="instructor:"><?=$row['nom_instructor']?></td>

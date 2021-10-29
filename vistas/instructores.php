@@ -22,7 +22,7 @@
                               <th>No Documento</th>
                               <th>Nombre y Apellidos</th>
                               
-                              <th>Opcion</th>
+                              <th>OPCIÓN</th>
             </thead>
 			<tbody>
 				<?php 

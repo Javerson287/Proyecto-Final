@@ -81,7 +81,7 @@
                                                 
                                             ?>
                                         </select></td>
-                                <td data-label="observaciones:"><textarea name="comentario" maxlength="70" placeholder="maximo 70 caracteres"></textarea></td>
+                                <td data-label="observaciones:"><textarea name="comentario" maxlength="70" placeholder="máximo 70 caracteres"></textarea></td>
                                 
 
                                
