@@ -1,6 +1,6 @@
 <?php
 require_once('fpdf.php');
-
+ 
 class PDF extends FPDF
 {
     // Cabecera de página
@@ -13,7 +13,7 @@ class PDF extends FPDF
         // Movernos a la derecha
         $this->Cell(120);
         // Título
-        $this->Cell(30,10,'Informe de prestamo de ambientes',0,1,'C');
+        $this->Cell(30,10,'Informe  de ambientes',0,1,'C');
         // Salto de línea
         $this->Ln(20);
     }
@@ -58,10 +58,10 @@ $pdf->Ln(000);
 $pdf->setfont('Arial','B',8);
 
     $pdf->cell(18,8,'f prestamo',1,0,'c',0);
-    $pdf->cell(18,8,'f devolucion',1,0,'c',0);
+    $pdf->cell(18,8,'f entrega',1,0,'c',0);
     $pdf->cell(18,8,'hora ingreso',1,0,'c',0);
     $pdf->cell(18,8,'hora salida',1,0,'c',0);
-    $pdf->cell(20,8,'cede',1,0,'c',0);
+    $pdf->cell(20,8,'sede',1,0,'c',0);
     $pdf->cell(20,8,'aula',1,0,'c',0);
     $pdf->cell(21,8,'N_documento',1,0,'c',0);
     $pdf->cell(45,8,'instructor',1,0,'c',0);
@@ -83,3 +83,6 @@ while($row = $resultado->fetch_assoc()){
 
  $pdf->output()
 ?>
+
+
+
